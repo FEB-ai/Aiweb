@@ -247,7 +247,8 @@
     $("#hero").innerHTML = wrap(
       (h.badge ? '<span class="hero-badge">' + esc(h.badge) + "</span>" : "") +
       '<p class="hero-org">' + esc(site.university + " " + site.department) + "</p>" +
-      '<h1 class="hero-title">' + esc(courseTitle) + "</h1>" +
+      '<h1 class="hero-title">' + esc(courseTitle) +
+        (site.version ? '<sup class="hero-version">' + esc(site.version) + "</sup>" : "") + "</h1>" +
       '<p class="hero-subtitle">' + esc(h.subtitle || site.tagline) + "</p>" +
       '<p class="hero-desc">' + esc(h.description) + "</p>" +
       '<div class="hero-actions">' + buttons + "</div>" +

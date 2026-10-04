@@ -196,6 +196,11 @@ a { color: inherit; }
   font-size: clamp(42px, 8vw, 72px); font-weight: 800; margin: 0; line-height: 1.2;
   background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
+/* 제목 오른쪽 위 버전 표시 (빨간 글씨) */
+.hero-version {
+  font-size: .28em; vertical-align: super; margin-left: .25em; letter-spacing: .02em;
+  color: #e00024; -webkit-text-fill-color: #e00024;
+}
 .hero-subtitle { font-size: clamp(19px, 3vw, 26px); font-weight: 700; margin: 10px 0 18px; }
 .hero-desc { max-width: 720px; margin: 0 auto 34px; color: var(--muted); font-size: clamp(16px, 2vw, 18px); }
 .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }

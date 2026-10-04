@@ -11,7 +11,8 @@ window.SITE_CONFIG = {
     department: "의과학과",
     courseName: "신경과학",
     tagline: "AI 기반 신경과학 학습능력 배양",
-    logo: "images/logo.gif" // 로고 이미지 경로. 비워 두면 기본 아이콘이 보입니다.
+    logo: "images/logo.gif", // 로고 이미지 경로. 비워 두면 기본 아이콘이 보입니다.
+    version: "v.1.0" // 첫 화면 제목 오른쪽 위에 빨간 글씨로 표시 (비우면 숨김)
   },
 
   /* ---------- 헤더 메뉴 (id는 아래 섹션 이름과 같아야 합니다) ---------- */
