@@ -1,0 +1,12 @@
+# 제작 중 미리 보기용 (사이트 작동과 무관)
+.claude/
+
+# 원본 자료 (사이트는 fonts/, images/ 의 복사본을 사용)
+고려대 백주년기념체/
+기본 UI/
+
+# 운영체제·편집기 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
